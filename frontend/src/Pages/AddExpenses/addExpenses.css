@@ -1,0 +1,32 @@
+/* addExpenses.css */
+
+/* Add styles for the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd; /* Add a border around the table */
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Add a background color for table headers */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Add alternating background colors for rows */
+  }
+  
+  /* Add borders to table cells */
+  th, td {
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the status column */
+  td:last-child {
+    /* You can add custom styles for the status column here */
+  }
+  
